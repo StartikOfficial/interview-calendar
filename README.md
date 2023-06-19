@@ -12,4 +12,4 @@
 Для ширины страницы `<= 740px` календарь равномерно растягивается. Для ширины страницы `> 740px` ширина календаря `= 740px`, календарь выравнивантвается по горизонтали по центру страницы.
 
 ## Результат работы
-* [Add Mobile](https://github.com/StartikOfficial/interview-calendar/blob/master/hidden-images/pixel%20perfect.png) - сравнение с макетом по pixel perfect. к сожалению, более точный шрифт не нашел.
+* [Pixel Perfect](https://github.com/StartikOfficial/interview-calendar/blob/master/hidden-images/pixel%20perfect.png) - сравнение с макетом по pixel perfect. к сожалению, более точный шрифт не нашел.
