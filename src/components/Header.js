@@ -33,7 +33,9 @@ const Header = ({setInterviews}) => {
 
         const [, year, month, day, hours, minutes, seconds] = dateTimeString.match(dateTimeRegex);
 
-        if (year < 1 || month < 1 || month > 12 || day < 1 || day > 31 || hours < 0 || hours > 23 || minutes < 0 || minutes > 59 || seconds < 0 || seconds > 59) {
+        if ((year < 1 || month < 1 || month > 12 || day < 1 || day > 31 || hours < 0 || hours > 23 || minutes < 0 || minutes > 59 || seconds < 0 || seconds > 59) 
+            || ((month == 2 && day > 28 && year % 4 !== 0) || (month == 2 && day > 29 && year % 4 == 0)) 
+            || ((month == 2 || month == 4 || month == 6 || month == 9 || month == 11) && day > 30)) {
             return alert("There is no date with this prompt");
         }
 
