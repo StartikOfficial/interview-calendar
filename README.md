@@ -5,9 +5,9 @@
 
 Макеты c версткой календаря для мобильных браузеров:
 
-* [Main Mobile](https://github.com/startikofficial/interview-calendar/blob/master/hidden_images/1.%20Main%20Mobile@2x.png) - Основной вид календаря.
-* [Delete Mobile](https://github.com/startikofficial/interview-calendar/blob/master/hidden_images/2.%20Delete%20Mobile@2x.png) - После выбора события, появляется кнопка Delete.
-* [Add Mobile](https://github.com/startikofficial/interview-calendar/blob/master/hidden_images/3.%20Add%20Mobile@2x.png) - После нажатия `+` появляется стандартный попап (функция `prompt`) добавления события.
+* [Main Mobile](https://github.com/startikofficial/interview-calendar/master/hidden_images/1.%20Main%20Mobile@2x.png) - Основной вид календаря.
+* [Delete Mobile](https://github.com/startikofficial/interview-calendar/master/hidden_images/2.%20Delete%20Mobile@2x.png) - После выбора события, появляется кнопка Delete.
+* [Add Mobile](https://github.com/startikofficial/interview-calendar/master/hidden_images/3.%20Add%20Mobile@2x.png) - После нажатия `+` появляется стандартный попап (функция `prompt`) добавления события.
 
 Для ширины страницы `<= 740px` календарь равномерно растягивается. Для ширины страницы `> 740px` ширина календаря `= 740px`, календарь выравнивантвается по горизонтали по центру страницы.
 
